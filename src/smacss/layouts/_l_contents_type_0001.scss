@@ -1,0 +1,11 @@
+.l-contents-type-0001 {
+  width: px_to_rem(1200);
+  margin-left: auto;
+  margin-right: auto;
+  .l-contents-type-0001__module-sample-wrapper {
+    margin-top: px_to_rem(16);
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

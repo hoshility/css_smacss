@@ -1,0 +1,22 @@
+.mod-header-0001 {
+  padding: 1rem;
+  background: #323232;
+  .mod-header-0001__logo {
+    font-size: px_to_rem(24);
+  }
+  .mod-header-0001__logo-anchor {
+    color: #ffffff;
+    text-decoration: none;
+    &:link,
+    &:visited {
+      color: #ffffff;
+    }
+    &:hover {
+      color: #dddddd;
+    }
+    &:active,
+    &:focus {
+      color: #dddddd;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.mod-footer-0001 {
+  padding: 1rem 0.5rem;
+  text-align: center;
+  background: #f0f0f0;
+  .mod-footer-0001__copy {
+    font-size: px_to_rem(10);
+    color: #808080;
+    text-decoration: none;
+    &:link,
+    &:visited {
+      color: #808080;
+    }
+    &:hover {
+      color: #dddddd;
+    }
+    &:active,
+    &:focus {
+      color: #dddddd;
+    }
+  }
+}

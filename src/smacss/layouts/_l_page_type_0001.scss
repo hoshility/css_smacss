@@ -1,0 +1,20 @@
+.l-page-type-0001 {
+  position: relative;
+  min-height: 100%;
+  box-sizing: border-box;
+  padding-top: px_to_rem(56);
+  padding-bottom: px_to_rem(48);
+  .l-page-type-0001__header-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .l-page-type-0001__contents-wrapper {
+
+  }
+  .l-page-type-0001__footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "css_smacss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss_build": "node-sass --importer node_modules/node-sass-glob-importer/dist/cli.js --output-style expanded src/entry_points/ -o public/stylesheets/pages/",
+    "scss_watch": "onchange './src/**/*.scss' -- npm run scss_build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "node-sass-glob-importer": "^5.3.1",
+    "onchange": "^5.2.0"
+  }
+}

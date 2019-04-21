@@ -1,0 +1,6 @@
+@function px_to_rem($size) {// 少数2桁まで表示
+  $base-size: 16;
+  $rem-size: round(($size / $base-size) * 100);
+  $rem-size: $rem-size / 100;
+  @return #{$rem-size}rem;
+}
